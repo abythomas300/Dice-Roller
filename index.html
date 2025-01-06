@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="monsterDiv">
+    <div class="container">
+        <div class="dices">
+         <div class="dice-structure" id="dice1">1</div> 
+         <div class="dice-structure" id="dice2">2</div>
+         <div class="dice-structure" id="dice3">3</div>
+        </div>
+        <div class="buttons-div">
+            <button class="button" id="button1" onclick="button1Click()">Roll 1</button>
+            <button class="button" onclick="button2Click()">Roll 2</button>
+            <button class="button" onclick="button3Click()">Roll 3</button>
+            <button class="button" id="rollallbutton" onclick="buttonAllClick()">Roll all</button>
+           </div>
+        
+    </div>
+ <p>Press 'Roll 1' to roll a dice of 6 sides.</p>
+ <p>Press 'Roll 2' to roll a dice of 10 sides.</p>
+ <p>Press 'Roll 3' to roll a dice of 20 sides.</p>
+ <p>Press 'Roll all' to roll all the three dices together.</p>
+</div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
